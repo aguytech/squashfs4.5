@@ -13,8 +13,7 @@ sh squashfs4.5/build.sh
 
 ### Origin
 
-    Use the work of Phillip Lougher
-    Available in [sourceforge.net](https://sourceforge.net/projects/squashfs/files/squashfs/squashfs4.5.1/)
+Use the work of Phillip Lougher, available in [sourceforge.net](https://sourceforge.net/projects/squashfs/files/squashfs/squashfs4.5.1/)
 
     SQUASHFS-TOOLS 4.5.1 - A squashed read-only filesystem for Linux
     Copyright 2002-2022 Phillip Lougher <phillip@squashfs.org.uk>
