@@ -6,6 +6,15 @@ This repository is to simplify integration and modifications of squashfs (for [f
 
 ### Installation
 
+curl
+
+```bash
+curl -O https://raw.githubusercontent.com/aguytech/squashfs4.5/master/build.sh
+sh build.sh
+```
+
+git
+
 ```bash
 git clone https://github.com/aguytech/squashfs4.5
 sh squashfs4.5/build.sh
