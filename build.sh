@@ -5,7 +5,7 @@
 echo "> Get package from sourceforge"
 echo
 file=squashfs-tools-4.5.1.tar.gz
-if ! [ -f ${file} ]; then
+if ! [ -f "${file}" ]; then
 	curl -L -o ${file} https://sourceforge.net/projects/squashfs/files/squashfs/squashfs4.5.1/${file}/download
 	grep -q '^<html' ${file} && { echo; echo "Unable to downloads file: ${file}"; exit 1; }
 fi
