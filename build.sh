@@ -15,8 +15,8 @@ if ! [ -f "${file}" ]; then
 	grep -q '^<html' ${file} && { echo; echo "Unable to downloads file: ${file}"; exit 1; }
 fi
 tar xzf ${file}
-path=$( dirname $( readlink -f $0 ) )/squashfs-tools-4.5.1/squashfs-tools
-cd ${path} || { echo; echo "Unable find path ${path}"; exit 1; }
+#path=$( dirname $( readlink -f $0 ) )/squashfs-tools-4.5.1/squashfs-tools
+cd squashfs-tools-4.5.1/squashfs-tools || { echo; echo "Unable find path ${path}"; exit 1; }
 
 echo "> installs required packages"
 echo
