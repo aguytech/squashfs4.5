@@ -3,8 +3,8 @@
 ! hash apt 2>/dev/null && echo "This installation is for Ubuntu OS" && exit 1
 
 echo "> Create temporary folder"
-path=/tmp/squashfs.$[date +%s)
-mkdir ${path} || { echo "Unable to create path; ${path}" && exit 1; }
+path=/tmp/squashfs.$(date +%s)
+mkdir ${path} || { echo "Unable to create path; ${path}"; exit 1; }
 cd ${path}
 
 echo "> Get package from sourceforge"
